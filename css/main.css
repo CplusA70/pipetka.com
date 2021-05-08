@@ -19,7 +19,7 @@ body {
     position: sticky;
     top: 5px;
     align-items: center;
-    background: rgba(255, 255, 255, 75%);
+    background: rgba(255, 255, 255, 100%);
     border-radius: 25px;
 }
 ul li {
