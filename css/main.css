@@ -26,9 +26,11 @@ ul li {
     display: inline;
 
 }
+
 li {
     margin-left: 15px;
 }
+
 .logo {
     margin-left: 15px;
     font-style: normal;
@@ -41,6 +43,7 @@ li {
     
     color: #936363;
 }
+
 a {
     font-style: normal;
     font-weight: 500;
@@ -70,7 +73,6 @@ a:hover {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 
 .red {
     color: red;
@@ -107,67 +109,83 @@ h2 {
     
     color: #EE8A84;
 }
+
 .wrapper {
     display: flex;
     align-items: center;
     margin-bottom: 60px;
 }
+
 .wrapper:nth-child(even) {
     flex-direction: row-reverse;
 }
+
 .wrapper:nth-child(even) .image {
     margin-right: 50px;
     border: 3px solid #936363;
     border-radius: 25px;
 }
+
 .wrapper:nth-child(odd) .image {
     margin-left: 50px;
     border: 3px solid #936363;
     border-radius: 25px;
 }
+
 .text {
     max-width: 600px;
 }
+
 .wrapper:nth-child(odd) .text{
     margin-left: 50px;
 }
+
 .wrapper:nth-child(even) .text {
     margin-right: 50px;
 
 }
+
 .wrapper-rev {
     display: flex;
     align-items: center;
     margin-bottom: 60px;
 }
+
 .wrapper-rev:nth-child(odd) {
     flex-direction: row-reverse;
 }
+
 .wrapper-rev:nth-child(odd) .image {
     margin-right: 50px;
     border: 3px solid #936363;
     border-radius: 25px;
 }
+
 .wrapper-rev:nth-child(even) .image {
     margin-left: 50px;
     border: 3px solid #936363;
     border-radius: 25px;
 }
+
 .text {
     max-width: 600px;
 }
+
 .wrapper-rev:nth-child(even) .text{
     margin-left: 50px;
 }
+
 .wrapper-rev:nth-child(odd) .text {
     margin-right: 50px;
 
 }
+
 .order {
     margin-left: 25%;
     margin-top: 50px;
     padding-bottom: 50px;
 }
+
 .order a{
 
     font-style: normal;
@@ -178,6 +196,7 @@ h2 {
     letter-spacing: -0.02em;
     border: 3px solid #936363;
 }
+
 .footer {
     margin: auto;
     bottom: 0;
@@ -185,7 +204,52 @@ h2 {
     max-width: 1200px;
     background: rgba(255, 255, 255, 75%);
     color: #936363;
+    border-radius: 15px;
 }
+
 h3 {
     padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    a {
+        padding: 5px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    li {
+        margin-left: 5px;
+    }
+    .wrapper-rev:nth-child(even) .text{
+        margin-left: 10px;
+    }
+    .wrapper-rev:nth-child(odd) .text {
+        margin-right: 10px;
+    }
+    .wrapper-rev:nth-child(odd) .image {
+        margin-right: 10px;
+    }
+    .wrapper-rev:nth-child(even) .image {
+        margin-left: 10px;
+    }
+    .wrapper img {
+        width: 35%;
+        height: 35%;
+    }
+    .wrapper-rev img {
+        width: 35%;
+        height: 35%;
+    }
+    .text {
+        font-size: 12px;
+    }
+    .wrapper:nth-child(even) {
+        margin-left: 20px;
+    }
+    .wrapper-rev:nth-child(odd) {
+        margin-left: 20px;
+    }
+    .order {
+        margin-left: 15%;
+    }
 }
