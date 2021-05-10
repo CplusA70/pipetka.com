@@ -7,7 +7,7 @@ body {
     margin: auto;
     margin-top: 39px;
     max-width: 1200px;
-    background: rgba(255, 255, 255, 75%);
+    background: rgba(255, 255, 255, 75%) !important;
     border-radius: 10px;
 }
 
@@ -19,7 +19,7 @@ body {
     position: sticky;
     top: 5px;
     align-items: center;
-    background: rgba(255, 255, 255, 100%);
+    background: rgba(255, 255, 255, 100%) !important;
     border-radius: 25px;
 }
 ul li {
@@ -202,7 +202,7 @@ h2 {
     bottom: 0;
     margin-bottom: 0;
     max-width: 1200px;
-    background: rgba(255, 255, 255, 75%);
+    background: rgba(255, 255, 255, 75%) !important;
     color: #936363;
     border-radius: 15px;
 }
